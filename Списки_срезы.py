@@ -20,21 +20,21 @@
 # print(a)
 # print(removed_element)
 
-a = [4,5,8,3,6,2,1,7]
-a.sort(reverse=True)
-print(a)
+# a = [4,5,8,3,6,2,1,7]
+# a.sort(reverse=True)
+# print(a)
 
 # my_list =[1,2,3,4]
 # for element in my_list:
 #     print(element)
 
-# my_list = [1,2,3,4,5,6]
-# your_list = []
-# for list_element in my_list:
-#     if list_element % 2 == 0:
-#          your_list.append(list_element)
-# print(your_list)
-# print(my_list)
+my_list = [1,2,3,4,5,6]
+your_list = []
+for list_element in my_list:
+    if list_element % 2 == 0:
+         your_list.append(list_element)
+print(your_list)
+print(my_list)
 
 # a = [2,4,6,8]
 # squeres_list = []
@@ -56,5 +56,5 @@ print(a)
 #         min_element = element
 # print(min_element)
 
-a=[1,2,3,4]
-print(a.index(3))
+# a=[1,2,3,4]
+# print(a.index(3))

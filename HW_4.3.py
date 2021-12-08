@@ -1,4 +1,4 @@
-Задача №3
+# Задача №3
 # Обменник. Создать скрипт который будет запускаться из консоли 1 раз из консоли, выдавать результат и зарываться.
 #     1. На вход обменнику вводишь количество денег int.
 #     2. На выходе в консоль выводится отввет в таком виде:
@@ -24,7 +24,7 @@ def main():
 def get_money():
     while True:
         your_money = input("Enter your money: ")
-        if your_money is " ":
+        if your_money == " ":
             print("Вы ввели пустое поле. Введите число.")
             return your_money, False
         if int(your_money) <= 0:
@@ -55,5 +55,4 @@ print("conversion_result_chf == ", conversion_result[2])
 print("conversion_result_gbp == ", conversion_result[3])
 print("conversion_result_cny == ", conversion_result[4])
 
-# while True:
-# main()
+get_currency(your_money)
