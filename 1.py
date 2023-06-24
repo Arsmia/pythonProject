@@ -1,7 +1,7 @@
 a = 10
 if (a > 3):
     print("a=", a)
-#     # todo add cycle
+#     todo add cycle
 #     param = 10
 #     print(str(param))
 # while True:
